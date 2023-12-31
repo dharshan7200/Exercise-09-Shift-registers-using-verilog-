@@ -104,10 +104,15 @@ assign po=temp;
 endmodule 
 ```
 
+### RTL LOGIC  REGISTERS  
+PISO:
+![image](https://github.com/dharshan7200/Exercise-09-Shift-registers-using-verilog-/assets/138850116/be9eff29-210d-460a-ba12-bd94b055840f)
 
+PIPO:
+![image](https://github.com/dharshan7200/Exercise-09-Shift-registers-using-verilog-/assets/138850116/39de291d-4e19-402c-be49-ca4f21ff9210)
 
-
-### RTL LOGIC  REGISTERS   
+SIPO:
+![image](https://github.com/dharshan7200/Exercise-09-Shift-registers-using-verilog-/assets/138850116/85a6e359-fd2f-4db0-8078-7b4f4877a5d8)
 
 
 
@@ -118,12 +123,19 @@ endmodule
 
 
 ### TIMING DIGRAMS FOR SHIFT REGISTERS
+PISO:
+![image](https://github.com/dharshan7200/Exercise-09-Shift-registers-using-verilog-/assets/138850116/10137594-45e0-42e5-9920-3bebb7a0b0ae)
 
+PIPO:
+![image](https://github.com/dharshan7200/Exercise-09-Shift-registers-using-verilog-/assets/138850116/f6a76ebf-afee-4319-a0ad-cbad1a0a939b)
 
-
+SIPO:
+![image](https://github.com/dharshan7200/Exercise-09-Shift-registers-using-verilog-/assets/138850116/76b4a936-3cf7-4a15-a59c-ac8eb1ac536e)
 
 
 
 
 
 ### RESULTS 
+Thus, PISO , PIPO, SIPO are implemented using verilog and their functionality using their functional tables is validated.
+
