@@ -60,6 +60,22 @@ Program for  Implementation-of Shift-registers-using-verilog-
 Developed by: Dharshan D
 RegisterNumber: 23001663
 
+
+
+
+SIPO:
+
+module Sipo(Si,Clk,po);
+input Si,Clk;
+output [0:7] po;
+reg [0:7] temp;
+always @ (posedge Clk)
+begin 
+temp = {temp [0:6],Si};
+end 
+assign po=temp;
+endmodule
+
 PISO:
 module piso2(Clk, Parallel_In,load, Serial_Out);
 input Clk,load;
@@ -88,19 +104,6 @@ always @ (posedge clk)
 begin 
 po = pi;
 end
-endmodule 
-
-SIPO:
-
-module Sipo(Si,Clk,po);
-input Si,Clk;
-output [0:7] po;
-reg [0:7] temp;
-always @ (posedge Clk)
-begin 
-temp = {temp [0:6],Si};
-end 
-assign po=temp;
 endmodule 
 ```
 
